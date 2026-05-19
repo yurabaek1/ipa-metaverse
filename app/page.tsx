@@ -308,7 +308,7 @@ export default function MetaversePage() {
       for (let c = 0; c < 10; c++) {
         const val = rowStr[c];
         if (val !== '0') {
-          ctx.fillStyle = pixelColors[val];
+          ctx.fillStyle = pixelColors[val as keyof typeof pixelColors];
           ctx.fillRect(OFFSET_X + c * PIXEL_SCALE, r * PIXEL_SCALE, PIXEL_SCALE, PIXEL_SCALE);
         }
       }
