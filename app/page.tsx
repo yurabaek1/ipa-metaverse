@@ -907,7 +907,7 @@ export default function MetaversePage() {
           <input 
             type="text" 
             value={chatInput}
-            onChange={(e) => setChatInput(e.value || e.target.value)}
+            onChange={(e) => setChatInput(e.target.value)}
             placeholder="메시지를 입력하세요..." 
             className={`flex-1 h-9 rounded-md px-3 text-sm outline-none focus:ring-2 focus:ring-sky-300 transition ${isPrivate ? 'bg-zinc-900/60 border border-zinc-700/50 text-white' : 'bg-white/80 border border-zinc-200 text-zinc-900'}`}
           />
