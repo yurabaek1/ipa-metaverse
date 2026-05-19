@@ -252,7 +252,7 @@ export default function MetaversePage() {
     ctx.restore();
   };
 
-  const getPixelColors = useCallback((char: any) => ({
+  const getPixelColors = useCallback((char: any): { [key: string]: string } => ({
     '1': char.type.hair,
     '2': '#ffedd5', 
     '3': char.type.shirt,
