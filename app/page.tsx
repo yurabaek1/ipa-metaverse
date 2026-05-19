@@ -90,7 +90,7 @@ export default function MetaversePage() {
       moving: false
     },
     dummies: [
-      { id: 'bot1', x: 50, y: 360, type: CHAR_TYPES[0], name: '안내데스크봇', dir: 'down', chatTimestamp: 0, currentChat: '', moving: false, isNear: false, message: ["UX부문 사무실에 오신것을 환영합니다요"] },
+      { id: 'bot1', x: 50, y: 360, type: CHAR_TYPES[0], name: '안내데스크봇', dir: 'down', chatTimestamp: 0, currentChat: '', moving: false, isNear: false, message: ["UX부문 사무실에","오신것을 환영합니다요","🎊🎊🍒"] },
       { id: 'bot2', x: 1300, y: 200, type: CHAR_TYPES[2], name: '회의실안내봇', dir: 'down', chatTimestamp: 0, currentChat: '', moving: false, isNear: false, message: ["프라이빗 모드입니다.", "이곳의 대화는 밖으로 🤫", "새어나가지 않아요!"] },
       { id: 'bot3', x: 200, y: 150, type: CHAR_TYPES[3], name: '탕비실봇', dir: 'down', chatTimestamp: 0, currentChat: '', moving: false, isNear: false, message: ["달달한 간식 드시고", "오늘 하루도 화이팅! 🍩"] }
     ],
