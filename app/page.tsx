@@ -2,8 +2,8 @@
 
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { Menu, MessageSquare, Users, User, X, Check, Copy, Send, Lock } from 'lucide-react';
-import { PIXEL_SPRITES, CHAR_TYPES } from './lib/sprites'; 
-import { generateNickname } from './lib/utils';
+import { PIXEL_SPRITES, CHAR_TYPES } from '../lib/sprites'; 
+import { generateNickname } from '../lib/utils';
 
 const BASE_W = 1600; 
 const BASE_H = 900;  
